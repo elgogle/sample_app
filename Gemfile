@@ -39,6 +39,9 @@ group :doc do
   gem 'sdoc', '0.3.20', require: false
 end
 
+group :production do
+  gem 'pg', '0.15.1'
+end
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
